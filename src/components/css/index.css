@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+::-webkit-scrollbar-track-piece { 
+  background-color:#f8f8f8;
+  }
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background-color:#aaa;
+  background-clip: padding-box;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color:#747474;
+}
+
+#app{
+  width: 964px;
+  height: 670px;
+}
+
+#app-bg{
+  width: 964px;
+  height: 670px;
+  background-image: url('../../assets/desktop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#m-search{
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 260px;
+}
+
+#m-search-input{
+  width: 80%;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ssView{
+  width: 768px;
+  height: 360px;
+}

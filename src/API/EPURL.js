@@ -1,6 +1,6 @@
 /**
  * Name: epToAid.js
- * Content: 输入开头为ep的url, 爬取页面获取视频aid
+ * content: 输入开头为ep的url, 爬取页面获取视频aid
  */
 
 const https = require('https');
@@ -10,7 +10,7 @@ const parsingUrl = require('../utils/parsingUrl');
 const SSURL = require('../API/SSURL');
 
 module.exports = function (id) {
-  let url = "https://www.bilibili.com/bangumi/play/ep" + id;
+  let url = `https://www.bilibili.com/bangumi/play/ep${id}`;
   return new Promise(function(resolve, reject){
     let ep = https.get(url, function(res){
       let data = [];

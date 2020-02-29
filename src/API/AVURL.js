@@ -1,6 +1,6 @@
 /**
  * Name: AVURL.js
- * Content: 解析开头为AV的url，因为AV号后跟的就是aid，直接获取获取cid号
+ * content: 解析开头为AV的url，因为AV号后跟的就是aid，直接获取获取cid号
  */
 
 const https = require('https');

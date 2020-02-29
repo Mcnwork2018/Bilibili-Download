@@ -1,0 +1,18 @@
+{
+  "name": "electron-bilibili-download",
+  "version": "1.0.0",
+  "description": "使用Node.js下载b站视频",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "machunning",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "electron": "^7.0.0",
+    "electron-builder": "^21.2.0",
+    "https": "^1.0.0",
+    "zlib": "^1.0.5"
+  }
+}

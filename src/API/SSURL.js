@@ -1,6 +1,6 @@
 /**
  *  Name: SSURL.js
- *  Content: 解析开头为ss的url，获取整季的aid和cid
+ *  content: 解析开头为ss的url，获取整季的aid和cid
  */
 
 const https = require('https');

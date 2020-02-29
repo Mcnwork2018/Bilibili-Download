@@ -1,6 +1,6 @@
 /**
- * Name: getLoginInfo.js
- * Content: 获取登录状态
+ * name: getLoginInfo.js
+ * content: 获取登录状态
  */
 
 'use strict'

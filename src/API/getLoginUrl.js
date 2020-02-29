@@ -1,12 +1,13 @@
 /*
- *  Name: getLoginUrl.js
- *  Content: 二维码登录
+ *  name: getLoginUrl.js
+ *  content: 二维码登录
  */
 
 const https = require('https');
-const LoginUrl = 'https://passport.bilibili.com/qrcode/getLoginUrl';
 
-let getLoginUrl = function (){
+module.exports = function (){
+  const LoginUrl = 'https://passport.bilibili.com/qrcode/getLoginUrl';
+  
   return new Promise(function(resolve, reject){
     https.get(LoginUrl, (res)=>{
       let data = '';
@@ -21,5 +22,3 @@ let getLoginUrl = function (){
     });
   });
 };
-
-module.exports = getLoginUrl;
